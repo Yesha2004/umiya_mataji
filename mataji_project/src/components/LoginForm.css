@@ -4,11 +4,11 @@
     align-items: center;
     height: 100vh;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #fdfdfd;
   }
   
   .login-card {
-    background-color: white;
+    background-color: rgb(180, 180, 180);
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -19,7 +19,7 @@
   
   .login-card h2 {
     font-size: 18px;
-    color: #333;
+    color: #000000;
     margin-bottom: 20px;
     font-weight: 600;
   }
@@ -32,12 +32,13 @@
     padding: 10px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     margin-bottom: 15px;
+    color:black;
   }
   
   .input-icon {
     display: flex;
     margin-right: 10px;
-    color: #777;
+    color: #000000;
   }
   
   input {
@@ -47,10 +48,11 @@
     font-size: 16px;
     background: transparent;
     padding: 5px;
+    color: black;
   }
   
   input::placeholder {
-    color: #aaa;
+    color: #756d6d;
   }
   
   .submit-button {
