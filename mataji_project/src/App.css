@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  padding-top: 10px;
+  background-size: cover;
+}
+
+.app-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  background-color: #f0ece1;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.trust-info{
+  font-size: 12px;
+  margin-top: 10px;
+  color: black;
+  font-weight: 700;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.trust-name{
+  font-size: 12px;
+  margin-top: 10px;
+  color: black;
+  font-weight: 700;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.trust-location{
+  font-size: 12px;
+  margin-top: 10px;
+  color: black;
+  font-weight: 700;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contact{
+  font-size: 34px;
+  margin-top: 10px;
+  color: black;
+  font-weight: 700;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header h1 {
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #b8860b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  overflow: hidden;
+}
+
+.logo-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.trust-info {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .logo-circle {
+    width: 100px;
+    height: 100px;
+  }
+}
